@@ -1,0 +1,24 @@
+body{
+	margin-left:10px;
+	margin-top: 10px;
+}
+div.register{
+	margin-left: 10px;
+}
+div.footer{
+/*	border: 5px solid rgb(0,0,0);
+	background-color: rgb(255,255,255);*/
+}
+#home{
+	float: right;
+}
+div.list-right{
+	margin-right: 300px;
+	margin-top: 40px;
+	float: right;
+}
+table, th, td {
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid rgb(0,0,0);
+}

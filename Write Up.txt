@@ -1,0 +1,9 @@
+This application is to be used for the final project of the class CIS355 Summer 2017. It has the ability to create,
+read, update, and delete three different tables. Those tables are tt_persons,tt_courses,tt_rounds with tt_rounds being
+a junction table. This application will also allow a user to register for an account and then login/logout of said 
+account. From the homepage(after login) the user will be able to select between the headers Players,Courses,Rounds in 
+order to view the 3-table crud, or one of the buttons provided below. The three buttons will do three different tasks,
+Logout: will log the user out of the current account, JSON File: will show the user a given json file, Upload File:
+will allow the user to upload a file of their choice and then be told file type, size, and name. Diagrams have been 
+provided a ER Diagram to show relationships of the 3 tables, process flow to give an idea of how the code is operating,
+use case which has 5 cases of the application, then a screen flow to give an idea of the layout of the website.

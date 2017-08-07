@@ -1,0 +1,6 @@
+{"persons": [
+	{"fname":"Joe", "lname":"Harrison", "age":"20"},
+	{"fname":"Frodo",   "lname":"Baggins", "age":"33"},
+	{"fname":"Gandalf", "lname":"Grey", "age":"2019"   }
+]}
+
