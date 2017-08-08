@@ -4,14 +4,14 @@
         if(isset($_GET['id'])) {
                 echo json_encode(
                         Database::prepare(
-                        'SELECT * FROM `persons` WHERE id=' . $_GET['id'],
+                        'SELECT * FROM `tt_persons` WHERE id=' . $_GET['id'],
                         array()
                         )->fetchAll(PDO::FETCH_ASSOC)
                 );
         } else
                 echo json_encode(
                         Database::prepare(
-                        'SELECT * FROM `persons`',
+                        'SELECT * FROM `tt_persons`',
                         array()
                         )->fetchAll(PDO::FETCH_ASSOC)
                 );
